@@ -29,7 +29,7 @@ jobs:
           color_snake: "#00ff00"  # 🟢 Green Snake
           color_dots: "#ff0000"   # 🔴 Red Contributions
           color_cells: "#000000"  # ⚫ Black Cells (Grid Background)
-          dark_mode: true         # 🌙 Dark mode theme
+          dark_mode: false         # 🌙 Dark mode theme
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
