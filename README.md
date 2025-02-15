@@ -80,7 +80,7 @@
 
 ## 🐍 Contribution Activity
 <p align="center">
-  <img src="https://github.com/2k2TharushaBandara/2k2TharushaBandara/blob/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/2k2TharushaBandara/2k2TharushaBandara/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
