@@ -549,20 +549,91 @@
   <!-- Add more stars -->
   <!-- ... (repeat similar circles with different positions and durations) ... -->
 
-  <!-- Planets -->
-  <circle cx="250" cy="180" r="20" fill="#ffcc00">
-    <animate attributeName="cx" values="250;270;250" dur="10s" repeatCount="indefinite"/>
-  </circle>  <!-- Yellow Planet -->
-  <circle cx="900" cy="150" r="25" fill="#ff5733">
-    <animate attributeName="cx" values="900;920;900" dur="12s" repeatCount="indefinite"/>
-  </circle>  <!-- Red Planet -->
-  <circle cx="650" cy="190" r="18" fill="#1e90ff">
-    <animate attributeName="cx" values="650;670;650" dur="15s" repeatCount="indefinite"/>
-  </circle>  <!-- Blue Planet -->
+<!-- Planets with bouncing effects -->
+<g>
+    <!-- Yellow Planet with glowing effect -->
+    <circle cx="250" cy="180" r="20" fill="#ffcc00">
+        <animate attributeName="cx" values="250;1200;250" dur="10s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="cy" values="180;300;180" dur="10s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="r" values="20;22;20" dur="2s" repeatCount="indefinite"/>
+        <filter id="glow1">
+            <feGaussianBlur stdDeviation="4.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <set attributeName="filter" to="url(#glow1)" begin="0s" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Saturn-like ring -->
+    <ellipse cx="250" cy="180" rx="35" ry="10" fill="none" stroke="#ffcc00" stroke-width="2">
+        <animate attributeName="cx" values="250;1200;250" dur="10s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="cy" values="180;300;180" dur="10s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    </ellipse>
+</g>
 
-  <!-- Text -->
-<text x="50%" y="50%" fill="white" font-size="40" text-anchor="middle" font-family="Arial">
-    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
-    Embark on a journey through my GitHub universe! 🚀🌌
+<!-- Red Planet with yellow glowing spots -->
+<g>
+    <circle cx="900" cy="150" r="25" fill="#ff5733">
+        <animate attributeName="cx" values="900;0;900" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="cy" values="150;300;150" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="r" values="25;27;25" dur="2.5s" repeatCount="indefinite"/>
+        <filter id="glow2">
+            <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <set attributeName="filter" to="url(#glow2)" begin="0s" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Glowing Yellow Spots on Red Planet -->
+    <circle cx="890" cy="140" r="3" fill="#ffcc00">
+        <animate attributeName="cx" values="890;0;890" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="cy" values="140;300;140" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="r" values="3;4;5;4;3" dur="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    </circle>
+    <circle cx="910" cy="155" r="4" fill="#ffcc00">
+        <animate attributeName="cx" values="910;0;910" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="cy" values="155;300;155" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="r" values="4;5;6;5;4" dur="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    </circle>
+    <circle cx="905" cy="145" r="3" fill="#ffcc00">
+        <animate attributeName="cx" values="905;0;905" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="cy" values="145;300;145" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+        <animate attributeName="r" values="3;4;5;4;3" dur="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    </circle>
+</g>
+
+<!-- Blue Planet with glowing and whitening effect -->
+<circle cx="650" cy="190" r="18" fill="#1e90ff">
+    <animate attributeName="cx" values="650;0;650" dur="14s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <animate attributeName="cy" values="190;300;190" dur="14s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <animate attributeName="r" values="18;20;18" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#1e90ff;#ffffff;#1e90ff" dur="4s" repeatCount="indefinite"/>
+    <filter id="glow3">
+        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+        <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <set attributeName="filter" to="url(#glow3)" begin="0s" dur="14s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Saturn-like rings -->
+<ellipse cx="650" cy="190" rx="30" ry="8" fill="none" stroke="#1e90ff" stroke-width="2">
+    <animate attributeName="cx" values="650;0;650" dur="14s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <animate attributeName="cy" values="190;300;190" dur="14s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+</ellipse>
+<ellipse cx="650" cy="190" rx="8" ry="30" fill="none" stroke="#1e90ff" stroke-width="2">
+    <animate attributeName="cx" values="650;0;650" dur="14s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+    <animate attributeName="cy" values="190;300;190" dur="14s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+</ellipse>
+
+<text x="50%" y="50%" fill="white" font-size="40" text-anchor="middle" font-family="times new roman">
+    <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+    🚀Embark on a journey through my GitHub universe!🌌
 </text>
 </svg>
