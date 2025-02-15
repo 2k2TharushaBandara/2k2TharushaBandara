@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"  # Runs every day at midnight
   workflow_dispatch:      # Allows manual execution
 
-permissions:  # ✅ Add this to give required permissions
+permissions:
   contents: write
   pages: write
   id-token: write
@@ -18,31 +18,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4  # ✅ Use the latest version
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18  # ✅ Ensure you use a supported version
-
-      - name: Install Dependencies
-        run: |
-          if [ -f yarn.lock ]; then
-            echo "Using Yarn..."
-            npm install -g yarn && yarn install
-          else
-            echo "Using npm..."
-            npm install
-          fi
-
       - name: Ensure Output Directory Exists
         run: mkdir -p dist
-
-      - name: Run Tests (if available)
-        run: |
-          if npm run | grep -q "test"; then
-            npm test
-          else
-            echo "No test script found in package.json. Skipping..."
-          fi
 
       - name: Generate Snake 🐍
         uses: Platane/snk@v3
@@ -51,7 +28,7 @@ jobs:
           outputs: dist/snake.svg
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4  # ✅ Use the latest version
+        uses: actions/upload-artifact@v4
         with:
           name: snake
           path: dist
