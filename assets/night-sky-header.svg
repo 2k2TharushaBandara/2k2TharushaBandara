@@ -1,4 +1,7 @@
 <svg width="100%" height="100%" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Darkening effect -->
+  <rect width="100%" height="100%" fill="black" opacity="0.5"/>
+
   <!-- Stars -->
   <circle cx="100" cy="50" r="2" fill="white" opacity="0.8">
     <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
