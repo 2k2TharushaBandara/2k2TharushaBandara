@@ -1,8 +1,8 @@
 # 🚀 Hi, I'm Tharusha Bhanuka Bandara!
-🔬 AI Researcher | 🛡️ Cybersecurity Enthusiast | 🕹️ Game Developer | 🌐 Full-Stack Developer | ⚛️ Quantum Computing Explorer  
+🔬 AI | 🛡️ Cybersecurity | 🕹️ Game Development | 🌐 Full-Stack Development | ⚛️ Quantum Computing  
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff5733,100:1e90ff&height=200&section=header&text=Welcome%20to%20My%20Tech%20Universe!&fontSize=40&fontColor=fff&animation=fadeIn"/>
+  <img src="https://raw.githubusercontent.com/2k2TharushaBandara/2k2TharushaBandara/main/assets/night-sky-header.svg" width="100%">
 </p>
 
 ---
