@@ -1,36 +1,49 @@
-<svg width="100%" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background Gradient -->
-  <rect width="1200" height="250" fill="url(#space-gradient)"/>
-
+<svg width="100%" height="100%" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <!-- Stars -->
-  <circle cx="100" cy="50" r="2" fill="white" opacity="0.8"/>
-  <circle cx="200" cy="80" r="1.5" fill="white"/>
-  <circle cx="300" cy="40" r="2" fill="white" opacity="0.9"/>
-  <circle cx="400" cy="90" r="1.2" fill="white" opacity="0.7"/>
-  <circle cx="550" cy="30" r="2" fill="white"/>
-  <circle cx="700" cy="60" r="1.8" fill="white" opacity="0.85"/>
-  <circle cx="850" cy="50" r="2.5" fill="white" opacity="0.8"/>
-  <circle cx="950" cy="70" r="1.5" fill="white"/>
-  <circle cx="1100" cy="40" r="2.2" fill="white" opacity="0.9"/>
+  <circle cx="100" cy="50" r="2" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="80" r="1.5" fill="white">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="40" r="2" fill="white" opacity="0.9">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="90" r="1.2" fill="white" opacity="0.7">
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="550" cy="30" r="2" fill="white">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="60" r="1.8" fill="white" opacity="0.85">
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="850" cy="50" r="2.5" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="950" cy="70" r="1.5" fill="white">
+    <animate attributeName="opacity" values="0;1;0" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1100" cy="40" r="2.2" fill="white" opacity="0.9">
+    <animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Add more stars -->
+  <!-- ... (repeat similar circles with different positions and durations) ... -->
 
   <!-- Planets -->
-  <circle cx="250" cy="180" r="20" fill="#ffcc00"/>  <!-- Yellow Planet -->
-  <circle cx="900" cy="150" r="25" fill="#ff5733"/>  <!-- Red Planet -->
-  <circle cx="650" cy="190" r="18" fill="#1e90ff"/>  <!-- Blue Planet -->
-
-  <!-- Twinkling Animation -->
-  <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  <circle cx="250" cy="180" r="20" fill="#ffcc00">
+    <animate attributeName="cx" values="250;270;250" dur="10s" repeatCount="indefinite"/>
+  </circle>  <!-- Yellow Planet -->
+  <circle cx="900" cy="150" r="25" fill="#ff5733">
+    <animate attributeName="cx" values="900;920;900" dur="12s" repeatCount="indefinite"/>
+  </circle>  <!-- Red Planet -->
+  <circle cx="650" cy="190" r="18" fill="#1e90ff">
+    <animate attributeName="cx" values="650;670;650" dur="15s" repeatCount="indefinite"/>
+  </circle>  <!-- Blue Planet -->
 
   <!-- Text -->
   <text x="50%" y="50%" fill="white" font-size="40" text-anchor="middle" font-family="Arial">
     Welcome to My Tech Universe! 🚀
   </text>
-
-  <!-- Gradient Definition -->
-  <defs>
-    <linearGradient id="space-gradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d0d5e"/>
-      <stop offset="100%" stop-color="#000000"/>
-    </linearGradient>
-  </defs>
 </svg>
