@@ -8,11 +8,22 @@
 ---
 
 ## 🌟 About Me  
-🎓 **Undergraduate passionate about cutting-edge technologies**  
-🖥️ Specializing in **AI, Cybersecurity, Quantum Computing, Game Development, and Full-Stack Development**  
-<!--🚀 **Currently building innovative AI-powered security solutions & immersive game experiences**  
-📖 **Exploring Quantum Machine Learning, Blockchain Security, and AR/VR for gaming**  
-📩 **Let's connect! Reach me at [tharushabhanuka@gmail.com](mailto:tharushabhanuka@gmail.com)** --> 
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/2k2TharushaBandara/2k2TharushaBandara/blob/main/assets/Flux_Dev_A_technologically_advanced_extraterrestrial_being_hun_3.jpeg" width="900"/>
+    </td>
+    <td>
+      <p>
+        🎓 <b>Computer Science Undergraduate at General Sir John Kotelawala Defence University</b><br>
+        <br>
+        🖥️ Specializing in <b>AI, Cybersecurity, Quantum Computing, Game Development, and Full-Stack Development</b>
+      </p>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
