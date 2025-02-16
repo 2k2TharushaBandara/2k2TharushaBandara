@@ -27,6 +27,7 @@
 
 ---
 
+<!--
 ## 🛠️ Tech Stack & Tools
 ### **💡 AI & Quantum Computing**
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -50,6 +51,7 @@
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+-->
 
 ---
 
@@ -60,7 +62,7 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 My GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=2k2TharushaBandara&show_icons=true&theme=radical&hide_border=true" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=2k2TharushaBandara&layout=compact&theme=tokyonight&hide_border=true" height="150" />
@@ -81,24 +83,24 @@
 -->
 
 ---
-
+<!--
 ## 🌍 Connect with Me
 <p align="center">
   <a href="https://www.linkedin.com/in/tharusha-bandara/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:tharushabhanuka@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://discordapp.com/users/yourdiscordid" target="_blank"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white"/></a>
 </p>
-
+-->
 ---
 
-## 🐍 Contribution Activity
+## 🐍 It's Feeding Time!
 <p align="center">
   <img src="https://raw.githubusercontent.com/2k2TharushaBandara/2k2TharushaBandara/output/github-contribution-grid-snake.svg">
 </p>
 
 ---
 
-## 📝 Random Quote
+## 📝 Quote of the Day
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal"/>
 </p>
