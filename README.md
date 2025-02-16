@@ -1,5 +1,9 @@
-# 🚀 Hi, I'm Tharusha Bhanuka Bandara!
-🔬 AI | 🛡️ Cybersecurity | 🕹️ Game Development | 🌐 Full-Stack Development | ⚛️ Quantum Computing  
+
+<h1 align="center"><b>🚀 Hi, I'm Tharusha Bhanuka Bandara!</b></h1>
+
+<p align="center">
+  🔬 AI    | 🛡️ Cybersecurity    | 🕹️ Game Development    | 🌐 Full-Stack Development    | ⚛️ Quantum Computing  
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/2k2TharushaBandara/2k2TharushaBandara/main/assets/night-sky-header.svg" width="100%">
