@@ -10,16 +10,9 @@
 ## 🌟 About Me  
 🎓 **Undergraduate passionate about cutting-edge technologies**  
 🖥️ Specializing in **AI, Cybersecurity, Quantum Computing, Game Development, and Full-Stack Development**  
-🚀 **Currently building innovative AI-powered security solutions & immersive game experiences**  
+<!--🚀 **Currently building innovative AI-powered security solutions & immersive game experiences**  
 📖 **Exploring Quantum Machine Learning, Blockchain Security, and AR/VR for gaming**  
-📩 **Let's connect! Reach me at [tharushabhanuka@gmail.com](mailto:tharushabhanuka@gmail.com)**  
-
----
-
-## 🏆 GitHub Highlights
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=2k2TharushaBandara&theme=onedark&margin-w=8&no-bg=true" alt="GitHub Trophies"/>
-</p>
+📩 **Let's connect! Reach me at [tharushabhanuka@gmail.com](mailto:tharushabhanuka@gmail.com)** --> 
 
 ---
 
@@ -49,6 +42,13 @@
 
 ---
 
+## 🏆 GitHub Highlights
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=2k2TharushaBandara&theme=onedark&margin-w=8&no-bg=true" alt="GitHub Trophies"/>
+</p>
+
+---
+
 ## 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=2k2TharushaBandara&show_icons=true&theme=radical&hide_border=true" height="150" />
@@ -61,11 +61,13 @@
 
 ---
 
+<!--
 ## 🚀 Featured Projects
 - **🛡️ CyberGuard** – AI-powered penetration testing tool  
 - **🕹️ Quantum Quest** – A game inspired by quantum mechanics  
 - **🤖 AI Assistant** – Intelligent chatbot with NLP capabilities  
 - **🌐 Secure DevOps** – Web app security automation  
+-->
 
 ---
 
@@ -94,8 +96,10 @@
 
 ## 🎯 Profile Views
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=2k2TharushaBandara&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=2k2TharushaBandara&color=blue&style=flat-square" alt="Profile_views.svg">
 </p>
+
+
 
 ---
 
