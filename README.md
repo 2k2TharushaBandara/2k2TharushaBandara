@@ -2,7 +2,7 @@
 <h1 align="center"><b>🚀 Hi, I'm Tharusha Bhanuka Bandara!</b></h1>
 
 <p align="center">
-  🔬 AI    | 🛡️ Cybersecurity    | 🕹️ Game Development    | 🌐 Full-Stack Development    | ⚛️ Quantum Computing  
+  🔬 AI    | 🕹️ Game Development    | 🌐 Full-Stack Development   
 </p>
 
 <p align="center">
