@@ -22,7 +22,7 @@
       <p>
         🎓 <b>Computer Science Undergraduate at General Sir John Kotelawala Defence University</b><br>
         <br>
-        🖥️ Specializing in <b>AI, Cybersecurity, Quantum Computing, Game Development, and Full-Stack Development</b>
+        🖥️  Passionate about <b>AI, Cybersecurity, Game Development, and Full-Stack Development</b>
       </p>
     </td>
   </tr>
